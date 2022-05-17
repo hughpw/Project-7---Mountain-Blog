@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(226 236 255);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  width: 900px;
+  margin: auto;
+}
+
+#feature img {
+  width: 900px;
+}
+
+.title {
+  position: absolute;
+  /* with position: absolute; adding a bottom and left its 
+  moves this many pixels from its parent element as oppose
+  to the body because the parent element .hero class has 
+  position: relative; */
+  bottom: 50px;
+  left: 50px; 
+  padding: 20px;
+  background-color: rgba(199, 199, 199, 0.65);
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0px;
+}
+
+.title p {
+  font-size: 20px;
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+article {
+  padding: 0 110px 0;
+}
+
+main {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 900px;
+  background-color: white;
+}
+
+article p {
+  padding-top: 10px;
+}
+
+article img {
+  width: 300px;
+}
+
+#article-figure {
+  float: right;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+figcaption {
+  font-size: 14px;
+}
+
+.hero {
+  position: relative;
+}
+
+.tags {
+  margin: 20px 0;
+}
+
+span {
+  padding: 5px 10px;
+  background-color: #4e8098;
+  color: white;
+  border-radius: 3px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+footer {
+  border-top: solid 1px grey;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
